@@ -296,6 +296,16 @@ plugins:
       folderDefaultState: collapsed
       folderClickBehavior: link
       useSavedState: true
+  - source: github:quartz-community/crawl-links
+    enabled: true
+    order: 50
+    options:
+      markdownLinkResolution: absolute
+      prettyLinks: true
+      openLinksInNewTab: false
+      lazyLoad: false
+      externalLinkIcon: true
+      disableBrokenWikilinks: false
 layout:
   groups:
     toolbar:
