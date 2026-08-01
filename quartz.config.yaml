@@ -16,7 +16,7 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Jacquard 12 Charted
+      header: Jacquard 12 (e)
       body: Micro 5
       code: IBM Plex Mono
     colors:
@@ -106,7 +106,7 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: false
   - source: "@quartz-themes/core"
-    enabled: true
+    enabled: false
     options:
       theme: default
       mode: both
