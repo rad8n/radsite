@@ -289,6 +289,13 @@ plugins:
       rootName: Home
       resolveFrontmatterTitle: true
       showCurrentPage: true
+  - source: github:quartz-community/explorer
+    enabled: true
+    order: 50
+    options:
+      folderDefaultState: collapsed
+      folderClickBehavior: link
+      useSavedState: true
 layout:
   groups:
     toolbar:
