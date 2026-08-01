@@ -83,11 +83,6 @@ plugins:
     layout:
       position: right
       priority: 30
-  - source: "@quartz-community/crawl-links"
-    enabled: true
-    options:
-      markdownLinkResolution: shortest
-    order: 60
   - source: "@quartz-community/description"
     enabled: true
     order: 70
@@ -111,7 +106,7 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: false
   - source: "@quartz-themes/core"
-    enabled: false
+    enabled: true
     options:
       theme: default
       mode: both
@@ -157,11 +152,6 @@ plugins:
     enabled: true
   - source: "@quartz-community/tag-page"
     enabled: true
-  - source: "@quartz-community/explorer"
-    enabled: true
-    layout:
-      position: left
-      priority: 50
   - source: "@quartz-community/graph"
     enabled: true
     layout:
