@@ -16,7 +16,7 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Jacquard 12 (e)
+      header: Jacquard 24
       body: Micro 5
       code: IBM Plex Mono
     colors:
