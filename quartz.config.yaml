@@ -279,7 +279,8 @@ plugins:
       subdir: plugin
     enabled: true
     order: 50
-    options: {}
+    options:
+      theme: everforest
   - source: github:quartz-community/breadcrumbs
     enabled: true
     order: 50
