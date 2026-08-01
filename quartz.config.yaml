@@ -16,8 +16,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: Jersey 10 Charted 
+      body: Coral Pixels
       code: IBM Plex Mono
     colors:
       lightMode:
