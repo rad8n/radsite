@@ -16,8 +16,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Jersey 10 Charted 
-      body: Coral Pixels
+      header: Coral Pixels
+      body: Micro 5
       code: IBM Plex Mono
     colors:
       lightMode:
