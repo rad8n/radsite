@@ -280,6 +280,14 @@ plugins:
     enabled: true
     order: 50
     options: {}
+  - source: github:quartz-community/breadcrumbs
+    enabled: true
+    order: 50
+    options:
+      spacerSymbol: ❯
+      rootName: Home
+      resolveFrontmatterTitle: true
+      showCurrentPage: true
 layout:
   groups:
     toolbar:
