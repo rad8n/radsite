@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
-  pageTitleSuffix: ""
+  pageTitle: ~ radsite ~
+  pageTitleSuffix: "| rad"
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -273,6 +273,22 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source:
+      name: quartz-themes
+      repo: github:saberzero1/quartz-themes
+      subdir: plugin
+    enabled: true
+    order: 50
+    options:
+      theme: everforest
+  - source: github:quartz-community/breadcrumbs
+    enabled: true
+    order: 50
+    options:
+      spacerSymbol: ❯
+      rootName: Home
+      resolveFrontmatterTitle: true
+      showCurrentPage: true
 layout:
   groups:
     toolbar:
