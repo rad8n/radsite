@@ -202,12 +202,6 @@ plugins:
       position: left
       priority: 35
       group: toolbar
-  - source: "@quartz-community/breadcrumbs"
-    enabled: true
-    layout:
-      position: beforeBody
-      priority: 5
-      condition: not-index
   - source: "@quartz-community/comments"
     enabled: false
     options:
@@ -274,6 +268,7 @@ plugins:
   - source: github:quartz-community/breadcrumbs
     enabled: true
     order: 50
+    condition: not-index
     options:
       spacerSymbol: ❯
       rootName: Home
