@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: rad8n.github.io
+  baseUrl: rad8n.github.io/radsite
   ignorePatterns:
     - private
     - templates
