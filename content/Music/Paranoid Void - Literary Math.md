@@ -3,3 +3,6 @@
 > Hollyyyyy I love this album. When I listen to it I pretend I'm going crazy and walking through a place i can never leave
 > 
 > Not even gonna pretend i can fathom what the titles say but its all instrumental sooo.
+
+
+tags : #music
