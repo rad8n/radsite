@@ -54,26 +54,20 @@ article h1:hover,
   overflow: visible;
 }
 
-/* Smooth fading for all content */
+/* Smooth fading */
 .markdown-preview-view > * {
   transition:
     opacity 0.8s ease,
     filter 0.8s ease;
 }
 
-/* Fade the rest of the note when hovering an embed */
+/* Fade background when any embed iframe is hovered */
 .markdown-preview-view:has(iframe:hover) > * {
   opacity: 0.25;
   filter: blur(1px);
 }
 
-/* Keep the hovered embed clear */
-.markdown-preview-view:has(iframe:hover) iframe:hover {
-  opacity: 1;
-  filter: brightness(1.05);
-}
-
-/* Embed base state */
+/* All iframes */
 .markdown-preview-view iframe {
   display: block;
   position: relative;
@@ -85,12 +79,11 @@ article h1:hover,
     transform 0.6s cubic-bezier(.2, .8, .2, 1),
     filter 0.4s ease,
     box-shadow 0.4s ease;
-
-  filter: brightness(1);
 }
 
-/* Floating hover state */
-.markdown-preview-view iframe:hover {
+/* Normal iframe hover */
+.markdown-preview-view iframe:hover,
+.markdown-preview-view iframe[title="deezer-widget"]:hover {
   z-index: 10;
 
   transform:
