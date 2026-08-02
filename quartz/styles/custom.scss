@@ -48,46 +48,73 @@ article h1:hover,
   100% { transform: rotate(0deg); }
 }
 
+.markdown-preview-view {
+  overflow: visible;
+}
 
-/* Fade everything else when an image is focused */
-.markdown-preview-view:has(img:hover) > * {
+/* Smooth fade for normal content */
+.markdown-preview-view > * {
+  transition:
+    opacity 0.35s ease,
+    filter 0.35s ease;
+}
+
+/* Fade everything when an iframe is hovered */
+.markdown-preview-view:has(iframe:hover) * {
+  transition:
+    opacity 0.35s ease,
+    filter 0.35s ease;
+}
+
+/* Fade everything except the active iframe */
+.markdown-preview-view:has(iframe:hover) * {
   opacity: 0.25;
   filter: blur(1px);
 }
 
-/* Keep hovered image clear */
-.markdown-preview-view:has(img:hover) img:hover {
+/* Restore the iframe itself */
+.markdown-preview-view:has(iframe:hover) iframe:hover {
   opacity: 1;
-  filter: none;
+  filter: brightness(1.05);
 }
 
-/* Image base */
-.markdown-preview-view img {
+/* Make table embeds able to escape */
+.markdown-preview-view table {
+  overflow: visible;
+}
+
+.markdown-preview-view td {
+  overflow: visible;
+}
+
+/* Base iframe */
+.markdown-preview-view iframe {
+  display: block;
   position: relative;
   z-index: 1;
 
-  max-width: 100%;
   transform-origin: center;
 
   transition:
-    transform 0.8s cubic-bezier(.2, .8, .2, 1),
+    transform 0.6s cubic-bezier(.2, .8, .2, 1),
     filter 0.4s ease,
     box-shadow 0.4s ease;
+
+  filter: brightness(1);
 }
 
-/* Expanded image state */
-.markdown-preview-view img:hover {
-  z-index: 20;
+/* Floating hover */
+.markdown-preview-view iframe:hover {
+  z-index: 10;
 
-  transform: scale(3);
-
-  max-width: 100vw;
-  max-height: 90vh;
-
-  object-fit: contain;
+  transform:
+    translateY(-4px)
+    scale(1.08)
+    rotate(0.3deg);
 
   filter: brightness(1.05);
 
   box-shadow:
-    0 15px 40px rgba(0, 0, 0, 0.35);
+    0 10px 30px rgba(0, 0, 0, 0.25);
 }
+
