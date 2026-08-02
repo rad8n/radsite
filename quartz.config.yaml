@@ -25,7 +25,7 @@ configuration:
         lightgray: "#4f5878"
         gray: "#543e60"
         darkgray: "#452729"
-        dark: "#072d36"
+        dark: "#f9c762"
         secondary: "#4f5878"
         tertiary: "#9a6147"
         highlight: rgba(143, 159, 169, 0.15)
@@ -203,7 +203,7 @@ plugins:
       priority: 35
       group: toolbar
  - source: "@quartz-community/comments"
-  enabled: true
+  enabled: false
   options:
     provider: giscus
     options:
