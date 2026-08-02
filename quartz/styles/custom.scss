@@ -52,7 +52,7 @@ article h1:hover,
   overflow: visible;
 }
 
-/* Allow embeds to escape tables */
+/* Allow transforms to escape tables */
 .markdown-preview-view table,
 .markdown-preview-view td,
 .markdown-preview-view tr {
@@ -61,30 +61,28 @@ article h1:hover,
 
 /* Smooth transitions */
 .markdown-preview-view > * {
-  transition:
-    filter 0.35s ease;
+  transition: filter 0.35s ease;
 }
 
 .markdown-preview-view iframe {
+  display: block;
+  position: relative;
+  z-index: 1;
+
+  transform-origin: center;
+
   transition:
     transform 0.6s cubic-bezier(.2, .8, .2, 1),
     filter 0.35s ease,
     box-shadow 0.4s ease;
 }
 
-/* Fade only top-level content blocks */
+/* Dim everything except the block containing the hovered iframe */
 .markdown-preview-view:has(iframe:hover) > *:not(:has(iframe:hover)) {
   filter: brightness(0.45) blur(1px);
 }
 
-/* Floating embed */
-.markdown-preview-view iframe {
-  display: block;
-  position: relative;
-  z-index: 1;
-  transform-origin: center;
-}
-
+/* Float the active embed */
 .markdown-preview-view iframe:hover {
   z-index: 10;
 
