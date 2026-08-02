@@ -51,15 +51,21 @@ article h1:hover,
 
 
 
-article > * {
-  transition : opacity 0.25s ease, filter 0.25s ease;
-
-}
-article:has(.embed:hover) > * {
+.markdown-preview-view:has(iframe[src*="deezer"]:hover) > * {
   opacity: 0.25;
-  filter:blur(1px);
+  transition: opacity 0.25s ease;
 }
-article:has(.embed:hover) .embed:hover {
+
+.markdown-preview-view:has(iframe[src*="deezer"]:hover) iframe[src*="deezer"] {
   opacity: 1;
-  filter: none;
+  transform: scale(1.08);
+}
+.markdown-preview-view:has(iframe[src*="deezer"]:hover) > * {
+  opacity: 0.25;
+  transition: opacity 0.25s ease;
+}
+
+.markdown-preview-view:has(iframe[src*="deezer"]:hover) iframe[src*="deezer"] {
+  opacity: 1;
+  transform: scale(1.08);
 }
