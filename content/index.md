@@ -1,4 +1,4 @@
-<center>## You have entered a radical website. I hope you've come prepared</center>
+<center><h1> You have entered a radical website. I hope you've come prepared</h1></center>
 <center>This website is full of journal entries and more. Take some time to explore my projects. I'll be updating them with old and new!</center>
 
 
@@ -17,6 +17,6 @@ Favourite Song: Deer Creek</center>
 > > These photos were taken along the highway in california (or oregon? the trip was long). I was hoping to get clearer shots from these but i love how they turned out. so smooth
 
 
-
+--------
 and a little note to myself so i dont forget how to use this
 npx quartz sync
