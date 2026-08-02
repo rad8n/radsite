@@ -52,7 +52,7 @@ article h1:hover,
   overflow: visible;
 }
 
-/* Allow transforms to escape tables */
+/* Allow embeds to escape tables */
 .markdown-preview-view table,
 .markdown-preview-view td,
 .markdown-preview-view tr {
@@ -64,6 +64,17 @@ article h1:hover,
   transition: filter 0.35s ease;
 }
 
+/* Dim normal content only */
+.markdown-preview-view:has(iframe:hover) > *:not(:has(iframe)) {
+  filter: brightness(0.45) blur(1px);
+}
+
+/* Keep any container holding the active embed untouched */
+.markdown-preview-view:has(iframe:hover) *:has(iframe:hover) {
+  filter: none;
+}
+
+/* Embed itself */
 .markdown-preview-view iframe {
   display: block;
   position: relative;
@@ -77,12 +88,7 @@ article h1:hover,
     box-shadow 0.4s ease;
 }
 
-/* Dim everything except the block containing the hovered iframe */
-.markdown-preview-view:has(iframe:hover) > *:not(:has(iframe:hover)) {
-  filter: brightness(0.45) blur(1px);
-}
-
-/* Float the active embed */
+/* Floating hover */
 .markdown-preview-view iframe:hover {
   z-index: 10;
 
