@@ -48,11 +48,8 @@ article h1:hover,
   100% { transform: rotate(0deg); }
 }
 
-/* General setup */
-.markdown-preview-view {
-  overflow: visible;
-}
-
+/* Allow embeds to expand */
+.markdown-preview-view,
 .markdown-preview-view table,
 .markdown-preview-view td,
 .markdown-preview-view tr {
@@ -64,44 +61,16 @@ article h1:hover,
   display: block;
   position: relative;
   z-index: 1;
+
   transform-origin: center;
 
   transition:
-    transform 0.6s cubic-bezier(.2, .8, .2, 1),
+    transform 0.6s cubic-bezier(.2,.8,.2,1),
     filter 0.35s ease,
     box-shadow 0.4s ease;
 }
 
-
-/* ===========================
-   NORMAL EMBEDS
-   =========================== */
-
-/* Dim normal content blocks */
-.markdown-preview-view:has(iframe:hover) > *:not(:has(iframe:hover)) {
-  filter: brightness(0.45) blur(1px);
-}
-
-
-/* ===========================
-   TABLE EMBEDS
-   =========================== */
-
-/* When iframe is inside a table, protect the table */
-.markdown-preview-view table:has(iframe:hover) {
-  filter: none;
-}
-
-/* Dim other top-level content, not the active table */
-.markdown-preview-view:has(table iframe:hover) > *:not(:has(table iframe:hover)) {
-  filter: brightness(0.45) blur(1px);
-}
-
-
-/* ===========================
-   FLOAT EFFECT
-   =========================== */
-
+/* Float effect */
 .markdown-preview-view iframe:hover {
   z-index: 10;
 
@@ -112,6 +81,11 @@ article h1:hover,
 
   filter: brightness(1.05);
 
-  box-shadow:
-    0 10px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+
+/* Only dim other top-level note blocks */
+.markdown-preview-view:has(iframe:hover) > *:not(:has(iframe:hover)) {
+  filter: brightness(0.45) blur(1px);
 }
