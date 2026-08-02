@@ -52,7 +52,7 @@ article h1:hover,
   overflow: visible;
 }
 
-/* Let expanded embeds escape tables */
+/* Allow embeds to escape tables */
 .markdown-preview-view table,
 .markdown-preview-view td,
 .markdown-preview-view tr {
@@ -60,40 +60,31 @@ article h1:hover,
 }
 
 /* Smooth transitions */
-.markdown-preview-view > *,
+.markdown-preview-view > * {
+  transition:
+    filter 0.35s ease;
+}
+
 .markdown-preview-view iframe {
   transition:
-    filter 0.35s ease,
     transform 0.6s cubic-bezier(.2, .8, .2, 1),
+    filter 0.35s ease,
     box-shadow 0.4s ease;
 }
 
-/*
-  Dim the rest of the note when an embed is hovered.
-  Filter does not permanently affect children like opacity does.
-*/
-.markdown-preview-view:has(iframe:hover) > * {
+/* Fade only top-level content blocks */
+.markdown-preview-view:has(iframe:hover) > *:not(:has(iframe:hover)) {
   filter: brightness(0.45) blur(1px);
 }
 
-/* Keep the hovered embed area clear */
-.markdown-preview-view:has(iframe:hover) iframe:hover,
-.markdown-preview-view:has(iframe:hover) td:has(iframe:hover),
-.markdown-preview-view:has(iframe:hover) tr:has(iframe:hover) {
-  filter: none;
-}
-
-/* Base embed */
+/* Floating embed */
 .markdown-preview-view iframe {
   display: block;
   position: relative;
   z-index: 1;
-
   transform-origin: center;
-  filter: brightness(1);
 }
 
-/* Floating embed */
 .markdown-preview-view iframe:hover {
   z-index: 10;
 
