@@ -10,3 +10,8 @@ This website is full of journal entries and more. Take some time to explore my p
 | -------------------------- | -------------------------- |
 > [!note]
 > > These photos were taken along the highway in california (or oregon? the trip was long). I was hoping to get clearer shots from these but i love how they turned out. so smooth
+
+
+
+and a little note to myself so i dont forget how to use this
+npx quartz sync
