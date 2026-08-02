@@ -202,11 +202,21 @@ plugins:
       position: left
       priority: 35
       group: toolbar
-  - source: "@quartz-community/comments"
-    enabled: false
+ - source: "@quartz-community/comments"
+  enabled: true
+  options:
+    provider: giscus
     options:
-      provider: giscus
-      options: {}
+      repo: "rad8n/radsite"
+      repoId: "R_kgDOTqf5yg"
+      category: "Comments"
+      categoryId: "DIC_kwDOTqf5ys4DCeyS"
+      mapping: "pathname"
+      strict: "0"
+      reactionsEnabled: "1"
+      inputPosition: "bottom"
+      theme: "preferred_color_scheme"
+      lang: "en"
     layout:
       position: afterBody
       priority: 10
