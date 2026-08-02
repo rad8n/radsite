@@ -52,55 +52,48 @@ article h1:hover,
   overflow: visible;
 }
 
-/* Make tables allow expanded embeds to escape */
+/* Let expanded embeds escape tables */
 .markdown-preview-view table,
 .markdown-preview-view td,
 .markdown-preview-view tr {
   overflow: visible;
 }
 
-/* Smooth fade transition */
-.markdown-preview-view > * {
+/* Smooth transitions */
+.markdown-preview-view > *,
+.markdown-preview-view iframe {
   transition:
-    opacity 0.35s ease,
-    filter 0.35s ease;
+    filter 0.35s ease,
+    transform 0.6s cubic-bezier(.2, .8, .2, 1),
+    box-shadow 0.4s ease;
 }
 
 /*
-  Fade the rest of the note when an iframe is hovered.
-  Using direct children prevents the iframe itself
-  from being faded.
+  Dim the rest of the note when an embed is hovered.
+  Filter does not permanently affect children like opacity does.
 */
 .markdown-preview-view:has(iframe:hover) > * {
-  opacity: 0.25;
-  filter: blur(1px);
+  filter: brightness(0.45) blur(1px);
 }
 
-/* Restore the section containing the hovered embed */
+/* Keep the hovered embed area clear */
+.markdown-preview-view:has(iframe:hover) iframe:hover,
 .markdown-preview-view:has(iframe:hover) td:has(iframe:hover),
-.markdown-preview-view:has(iframe:hover) tr:has(iframe:hover),
-.markdown-preview-view:has(iframe:hover) iframe:hover {
-  opacity: 1;
+.markdown-preview-view:has(iframe:hover) tr:has(iframe:hover) {
   filter: none;
 }
 
-/* Base iframe state */
+/* Base embed */
 .markdown-preview-view iframe {
   display: block;
   position: relative;
   z-index: 1;
 
   transform-origin: center;
-
-  transition:
-    transform 0.6s cubic-bezier(.2, .8, .2, 1),
-    filter 0.4s ease,
-    box-shadow 0.4s ease;
-
   filter: brightness(1);
 }
 
-/* Floating hover state */
+/* Floating embed */
 .markdown-preview-view iframe:hover {
   z-index: 10;
 
