@@ -17,19 +17,19 @@ configuration:
     cdnCaching: true
     typography:
       header: Jacquard 24
-      body: Micro 5
+      body: Coral Pixels
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#4f5878"
-        lightgray: "#4f5878"
-        gray: "#e69375"
-        darkgray: "#e69375"
-        dark: "#f9c762"
-        secondary: "#4f5878"
-        tertiary: "#9a6147"
+        light: "#161618"
+        lightgray: "#393639"
+        gray: "#646464"
+        darkgray: "#d4d4d4"
+        dark: "#ebebec"
+        secondary: "#7b97aa"
+        tertiary: "#84a59d"
         highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        textHighlight: "#b3aa0288"
       darkMode:
         light: "#161618"
         lightgray: "#393639"

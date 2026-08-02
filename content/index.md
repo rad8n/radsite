@@ -8,8 +8,8 @@
 <center>*Racoma tastes like the pacific northwest. When I listen to their music I can feel salt air in my lungs and the smell of the forest floor. They sound like remembering*
 Favourite Song: Deer Creek</center>
 
-| <iframe title="deezer-widget" src="https://widget.deezer.com/widget/auto/album/311446847?tracklist=false" width="400" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe> | ![[index_film1.jpg\| 400]] |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------- |
+| <iframe title="deezer-widget" src="https://widget.deezer.com/widget/auto/album/311446847?tracklist=false" width="400" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe> | ![[images/index_film1.jpg\| 400]] |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------- |
 <center>*Racoma tastes like the pacific northwest. When I listen to their music I can feel salt air in my lungs and the smell of the forest floor. They sound like remembering*
 Favourite Song: Deer Creek</center>
 
