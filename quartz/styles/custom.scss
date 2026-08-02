@@ -50,22 +50,44 @@ article h1:hover,
 
 
 
-
-.markdown-preview-view:has(iframe[src*="deezer"]:hover) > * {
-  opacity: 0.25;
-  transition: opacity 0.25s ease;
+.markdown-preview-view iframe {
+  transition: transform 0.35s ease, filter 0.35s ease;
+  transform-origin: center;
 }
 
-.markdown-preview-view:has(iframe[src*="deezer"]:hover) iframe[src*="deezer"] {
-  opacity: 1;
+.markdown-preview-view iframe:hover {
   transform: scale(1.08);
+  filter: brightness(1.05);
 }
-.markdown-preview-view:has(iframe[src*="deezer"]:hover) > * {
-  opacity: 0.25;
-  transition: opacity 0.25s ease;
+.markdown-preview-view {
+  overflow: visible;
 }
 
-.markdown-preview-view:has(iframe[src*="deezer"]:hover) iframe[src*="deezer"] {
-  opacity: 1;
-  transform: scale(1.08);
+.markdown-preview-view iframe {
+  display: block;
+  position: relative;
+  z-index: 1;
+
+  transform-origin: center;
+  transition:
+    transform 0.5s cubic-bezier(.2, .8, .2, 1),
+    filter 0.5s ease;
+
+  filter: brightness(1);
+}
+
+.markdown-preview-view iframe:hover {
+  z-index: 10;
+  animation: embedFloat 3s ease-in-out infinite;
+  filter: brightness(1.05);
+}
+
+@keyframes embedFloat {
+  0%, 100% {
+    transform: translateY(0px) scale(1.08) rotate(-0.3deg);
+  }
+
+  50% {
+    transform: translateY(-4px) scale(1.08) rotate(0.3deg);
+  }
 }
