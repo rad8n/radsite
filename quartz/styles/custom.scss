@@ -23,7 +23,8 @@ article h1 {
 }
 
 .article-title:hover,
-article h1:hover {
+article h1:hover,
+.page-title:hover {
   animation: wobble 0.45s ease-in-out;
 }
 
@@ -45,3 +46,4 @@ article h1:hover {
   80%  { transform: rotate(1deg); }
   100% { transform: rotate(0deg); }
 }
+
