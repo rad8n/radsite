@@ -1,5 +1,7 @@
+<center> These are my film photos from our roadtrip to California. It was truly like nothing I had ever seen. A trip that revived my wanderlust </center>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 10px;">
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
 
 ![ ](images/120_REF--02/0002_01.jpg)
 ![ ](images/120_REF--02/0002_02.jpg)
