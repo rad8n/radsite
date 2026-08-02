@@ -13,5 +13,36 @@
 }
 
 .page {
-  animation: fadeUp 0.45s ease-out;
+  animation: fadeUp 1s ease-out;
+}
+.article-title {
+  display: inline-block;
+  transform-origin: center;
+
+  /* Idle animation */
+  animation: breathe 5s ease-in-out infinite;
+}
+
+.article-title:hover {
+  /* Replace breathing with a quick wobble */
+  animation: wobble 0.45s ease-in-out;
+}
+
+@keyframes breathe {
+  0%, 100% {
+    transform: translateY(0) scale(1) rotate(-0.2deg);
+  }
+
+  50% {
+    transform: translateY(-1px) scale(1.015) rotate(0.2deg);
+  }
+}
+
+@keyframes wobble {
+  0%   { transform: rotate(0deg); }
+  20%  { transform: rotate(-2deg); }
+  40%  { transform: rotate(2deg); }
+  60%  { transform: rotate(-1.5deg); }
+  80%  { transform: rotate(1deg); }
+  100% { transform: rotate(0deg); }
 }
