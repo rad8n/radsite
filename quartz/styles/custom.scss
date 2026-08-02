@@ -15,16 +15,15 @@
 .page {
   animation: fadeUp 1s ease-out;
 }
-.article-title {
+.article-title,
+article h1 {
   display: inline-block;
   transform-origin: center;
-
-  /* Idle animation */
   animation: breathe 5s ease-in-out infinite;
 }
 
-.article-title:hover {
-  /* Replace breathing with a quick wobble */
+.article-title:hover,
+article h1:hover {
   animation: wobble 0.45s ease-in-out;
 }
 
