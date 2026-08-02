@@ -48,38 +48,22 @@ article h1:hover,
   100% { transform: rotate(0deg); }
 }
 
+/* General setup */
 .markdown-preview-view {
   overflow: visible;
 }
 
-/* Allow embeds to escape tables */
 .markdown-preview-view table,
 .markdown-preview-view td,
 .markdown-preview-view tr {
   overflow: visible;
 }
 
-/* Smooth transitions */
-.markdown-preview-view > * {
-  transition: filter 0.35s ease;
-}
-
-/* Dim normal content only */
-.markdown-preview-view:has(iframe:hover) > *:not(:has(iframe)) {
-  filter: brightness(0.45) blur(1px);
-}
-
-/* Keep any container holding the active embed untouched */
-.markdown-preview-view:has(iframe:hover) *:has(iframe:hover) {
-  filter: none;
-}
-
-/* Embed itself */
+/* Smooth iframe movement */
 .markdown-preview-view iframe {
   display: block;
   position: relative;
   z-index: 1;
-
   transform-origin: center;
 
   transition:
@@ -88,7 +72,36 @@ article h1:hover,
     box-shadow 0.4s ease;
 }
 
-/* Floating hover */
+
+/* ===========================
+   NORMAL EMBEDS
+   =========================== */
+
+/* Dim normal content blocks */
+.markdown-preview-view:has(iframe:hover) > *:not(:has(iframe:hover)) {
+  filter: brightness(0.45) blur(1px);
+}
+
+
+/* ===========================
+   TABLE EMBEDS
+   =========================== */
+
+/* When iframe is inside a table, protect the table */
+.markdown-preview-view table:has(iframe:hover) {
+  filter: none;
+}
+
+/* Dim other top-level content, not the active table */
+.markdown-preview-view:has(table iframe:hover) > *:not(:has(table iframe:hover)) {
+  filter: brightness(0.45) blur(1px);
+}
+
+
+/* ===========================
+   FLOAT EFFECT
+   =========================== */
+
 .markdown-preview-view iframe:hover {
   z-index: 10;
 
