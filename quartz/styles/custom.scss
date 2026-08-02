@@ -52,42 +52,39 @@ article h1:hover,
   overflow: visible;
 }
 
-/* Smooth fade for normal content */
+/* Make tables allow expanded embeds to escape */
+.markdown-preview-view table,
+.markdown-preview-view td,
+.markdown-preview-view tr {
+  overflow: visible;
+}
+
+/* Smooth fade transition */
 .markdown-preview-view > * {
   transition:
     opacity 0.35s ease,
     filter 0.35s ease;
 }
 
-/* Fade everything when an iframe is hovered */
-.markdown-preview-view:has(iframe:hover) * {
-  transition:
-    opacity 0.35s ease,
-    filter 0.35s ease;
-}
-
-/* Fade everything except the active iframe */
-.markdown-preview-view:has(iframe:hover) * {
+/*
+  Fade the rest of the note when an iframe is hovered.
+  Using direct children prevents the iframe itself
+  from being faded.
+*/
+.markdown-preview-view:has(iframe:hover) > * {
   opacity: 0.25;
   filter: blur(1px);
 }
 
-/* Restore the iframe itself */
+/* Restore the section containing the hovered embed */
+.markdown-preview-view:has(iframe:hover) td:has(iframe:hover),
+.markdown-preview-view:has(iframe:hover) tr:has(iframe:hover),
 .markdown-preview-view:has(iframe:hover) iframe:hover {
   opacity: 1;
-  filter: brightness(1.05);
+  filter: none;
 }
 
-/* Make table embeds able to escape */
-.markdown-preview-view table {
-  overflow: visible;
-}
-
-.markdown-preview-view td {
-  overflow: visible;
-}
-
-/* Base iframe */
+/* Base iframe state */
 .markdown-preview-view iframe {
   display: block;
   position: relative;
@@ -103,7 +100,7 @@ article h1:hover,
   filter: brightness(1);
 }
 
-/* Floating hover */
+/* Floating hover state */
 .markdown-preview-view iframe:hover {
   z-index: 10;
 
@@ -117,4 +114,3 @@ article h1:hover,
   box-shadow:
     0 10px 30px rgba(0, 0, 0, 0.25);
 }
-
