@@ -1,6 +1,67 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  pointer-events: none;
+  z-index: -1;
+
+  background:
+    radial-gradient(
+      ellipse at bottom,
+      rgba(27, 39, 53, 0.55) 0%,
+      rgba(9, 10, 15, 0.35) 100%
+    );
+
+  opacity: 0.45;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  pointer-events: none;
+  z-index: -1;
+
+  opacity: 0.35;
+
+  background-image:
+    radial-gradient(circle, white 1px, transparent 1px),
+    radial-gradient(circle, white 1.5px, transparent 1.5px),
+    radial-gradient(circle, white 2px, transparent 2px);
+
+  background-size:
+    120px 120px,
+    220px 220px,
+    350px 350px;
+
+  background-position:
+    0 0,
+    40px 80px,
+    120px 30px;
+
+  animation: starDrift 80s linear infinite;
+}
+
+
+@keyframes starDrift {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-400px);
+  }
+}
+
+
+
+
 @keyframes fadeUp {
   from {
     opacity: 0;
