@@ -48,6 +48,28 @@ article h1:hover,
   100% { transform: rotate(0deg); }
 }
 
+/* Allow floating elements to escape containers */
+.markdown-preview-view {
+  overflow: visible;
+}
+
+/* Allow table-contained images/embeds to expand */
+.markdown-preview-view table,
+.markdown-preview-view tbody,
+.markdown-preview-view tr,
+.markdown-preview-view td {
+  overflow: visible;
+}
+
+.markdown-preview-view td {
+  position: relative;
+}
+
+
+/* =========================
+   FLOATING IFRAME EMBEDS
+   ========================= */
+
 .markdown-preview-view iframe {
   display: block;
   position: relative;
@@ -56,15 +78,18 @@ article h1:hover,
   transform-origin: center;
 
   transition:
-    transform 0.7s cubic-bezier(.2,.8,.2,1),
-    filter 0.8s ease,
+    transform 0.8s cubic-bezier(.2,.8,.2,1),
+    filter 0.6s ease,
     box-shadow 0.8s ease;
 }
 
 .markdown-preview-view iframe:hover {
   z-index: 10;
 
-  animation: widgetFloat 3s ease-in-out infinite;
+  transform:
+    translateY(-5px)
+    scale(1.08)
+    rotate(0.2deg);
 
   filter: brightness(1.05);
 
@@ -72,31 +97,15 @@ article h1:hover,
     0 12px 32px rgba(0,0,0,0.25);
 }
 
-@keyframes widgetFloat {
-  0%, 100% {
-    transform:
-      translateY(-5px)
-      scale(1.08)
-      rotate(-0.3deg);
-  }
 
-  50% {
-    transform:
-      translateY(-8px)
-      scale(1.08)
-      rotate(0.3deg);
-  }
-}
-/* Allow images to expand outside their normal bounds */
-.markdown-preview-view {
-  overflow: visible;
-}
+/* =========================
+   FLOATING IMAGES
+   ========================= */
 
 .markdown-preview-view img {
+  display: block;
   position: relative;
   z-index: 1;
-
-  display: block;
 
   max-width: 100%;
   height: auto;
@@ -104,19 +113,18 @@ article h1:hover,
   transform-origin: center;
 
   transition:
-    transform 0.7s cubic-bezier(.2,.8,.2,1),
-    filter 0.35s ease,
-    box-shadow 0.4s ease;
+    transform 0.8s cubic-bezier(.2,.8,.2,1),
+    filter 0.6s ease,
+    box-shadow 0.8s ease;
 }
 
-/* Expanded floating image */
 .markdown-preview-view img:hover {
   z-index: 10;
 
   transform:
     translateY(-5px)
-    scale(2.08)
-    rotate(0.3deg);
+    scale(1.15)
+    rotate(0.2deg);
 
   filter: brightness(1.05);
 
