@@ -1,0 +1,23 @@
+/* Custom Sparkle Trail Styles */
+.quartz-sparkle {
+  position: fixed;
+  pointer-events: none; /* Allows clicking through the sparkles */
+  width: 6px;
+  height: 6px;
+  background: #FFD700; /* Gold sparkles - change this hex code to any color you like! */
+  border-radius: 50%;
+  box-shadow: 0 0 10px 2px #FFA500; 
+  animation: sparkle-fade 0.8s linear forwards;
+  z-index: 9999;
+}
+
+@keyframes sparkle-fade {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+  }
+}
