@@ -252,3 +252,53 @@ article h1:hover,
   font-style:italic;
 
 }
+/* Pixel cursor effect */
+.comment-title::after {
+
+  content: "_";
+
+  display:inline-block;
+
+  margin-left:0.25rem;
+
+  animation:
+    cursorBlink 1s steps(2, start) infinite;
+
+}
+
+
+@keyframes cursorBlink {
+
+  0%, 45% {
+    opacity:1;
+  }
+
+  46%, 100% {
+    opacity:0;
+  }
+
+}
+
+
+
+/* Retro hover lift */
+.comment-box,
+.comment-list-box {
+
+  transition:
+    transform .25s ease,
+    box-shadow .25s ease;
+
+}
+
+
+.comment-box:hover,
+.comment-list-box:hover {
+
+  transform:
+    translate(-2px,-2px);
+
+  box-shadow:
+    6px 6px 0 rgba(0,0,0,0.3);
+
+}
