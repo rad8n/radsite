@@ -295,7 +295,10 @@ layout:
         beforeBody: []
         left: []
         right: []
-    content: {}
+    content:
+        positions:
+            afterBody:
+                - Comments
     folder:
       exclude:
         - reader-mode
