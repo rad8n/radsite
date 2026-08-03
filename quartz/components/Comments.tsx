@@ -24,9 +24,8 @@ const Comments: QuartzComponent = () => {
             page: window.location.pathname
           }
 
-
           fetch(
-            "radsite-comments.aidankharris.workers.dev",
+            "https://radsite-comments.aidankharris.workers.dev",
             {
               method: "POST",
 
@@ -66,9 +65,5 @@ const Comments: QuartzComponent = () => {
     </section>
   )
 }
-
-
-Comments.css = `
-`
 
 export default (() => Comments) satisfies QuartzComponentConstructor

@@ -283,6 +283,8 @@ plugins:
       lazyLoad: false
       externalLinkIcon: true
       disableBrokenWikilinks: false
+  - source: ./quartz/plugins/comments
+    enabled: true
 layout:
   groups:
     toolbar:
@@ -295,10 +297,7 @@ layout:
         beforeBody: []
         left: []
         right: []
-    content:
-        positions:
-            afterBody:
-                - Comments
+    content: {}
     folder:
       exclude:
         - reader-mode
