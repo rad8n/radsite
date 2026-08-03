@@ -20,5 +20,3 @@ Favourite Song: Deer Creek</center>
 --------
 and a little note to myself so i dont forget how to use this
 npx quartz sync
-
-![[comments]]

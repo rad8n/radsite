@@ -283,30 +283,36 @@ plugins:
       lazyLoad: false
       externalLinkIcon: true
       disableBrokenWikilinks: false
-  - source: ./quartz/plugins/comments
-    enabled: true
 layout:
   groups:
     toolbar:
       priority: 35
       direction: row
       gap: 0.5rem
+
   byPageType:
     "404":
       positions:
         beforeBody: []
         left: []
         right: []
-    content: {}
+
+    content:
+      positions:
+        afterBody:
+          - Comments
+
     folder:
       exclude:
         - reader-mode
       positions:
         right: []
+
     tag:
       exclude:
         - reader-mode
       positions:
         right: []
+
     canvas: {}
     bases: {}
