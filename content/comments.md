@@ -1,7 +1,3 @@
----
-draft: "true"
----
-
 <div class="comments">
 
 <h2>Leave a comment</h2>
