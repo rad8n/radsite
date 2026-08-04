@@ -57,7 +57,7 @@ article h1:hover,
 
 
 /* =========================
-   FLOATING IFRAME EMBEDS
+   FLOATING IFRAME EMBEDS WHEN HOVERING
    ========================= */
 
 .markdown-preview-view iframe {
@@ -88,8 +88,10 @@ article h1:hover,
 }
 
 
+
+
 /* =========================
-   FLOATING IMAGES
+   FLOATING IMAGES WHEN HOVERING
    ========================= */
 
 .markdown-preview-view img {
@@ -128,6 +130,10 @@ article h1:hover,
   font-family: "IBM Plex Mono", monospace;
 
 }
+
+
+
+// PHOTO GRID LAYOUT
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -143,5 +149,25 @@ article h1:hover,
 @media (max-width: 768px) {
   .photo-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+
+// Keeping header at top in mobile
+@media (max-width: 768px) {
+  header,
+  .page-header,
+  .left {
+    position: static !important;
+    top: auto !important;
+  }
+}
+@media (max-width: 768px) {
+  .page {
+    padding-top: 0 !important;
+  }
+
+  .left {
+    height: auto !important;
   }
 }
