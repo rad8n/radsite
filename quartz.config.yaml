@@ -21,8 +21,8 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "rgba(26, 26, 56, 0.88)"
-        lightgray: "rgba(57, 54, 57, 0.88)"
+        light: rgba(26, 26, 56, 0.88)
+        lightgray: rgba(57, 54, 57, 0.88)
         gray: "#646464"
         darkgray: "#d4d4d4"
         dark: "#ebebec"
@@ -31,7 +31,7 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
       darkMode:
-        light: "rgba(26, 26, 56, 0.88)"
+        light: rgba(26, 26, 56, 0.88)
         lightgray: "#rgba(57, 54, 57, 0.88)"
         gray: "#646464"
         darkgray: "#d4d4d4"
@@ -283,36 +283,81 @@ plugins:
       lazyLoad: false
       externalLinkIcon: true
       disableBrokenWikilinks: false
+  - source: "@parcel/watcher"
+    enabled: true
+    options: {}
+    order: 50
+  - source: github:rad8n/quartz-comment-custom
+    enabled: true
+    options: {}
+    order: 50
+    layout:
+      position: beforeBody
+      priority: 40
+  - source: github:rad8n/quartz-comment-custom
+    enabled: true
+    options: {}
+    order: 50
+    layout:
+      position: beforeBody
+      priority: 40
+  - source: github:rad8n/quartz-comment-custom
+    enabled: true
+    options: {}
+    order: 50
+    layout:
+      position: beforeBody
+      priority: 40
+  - source: github:rad8n/quartz-comment-custom
+    enabled: true
+    options: {}
+    order: 50
+    layout:
+      position: beforeBody
+      priority: 40
+  - source: github:rad8n/quartz-comment-custom
+    enabled: true
+    options: {}
+    order: 50
+    layout:
+      position: beforeBody
+      priority: 40
+  - source: github:rad8n/quartz-comment-custom
+    enabled: true
+    options: {}
+    order: 50
+    layout:
+      position: beforeBody
+      priority: 40
+  - source: github:rad8n/quartz-comment-custom
+    enabled: true
+    options: {}
+    order: 50
+    layout:
+      position: beforeBody
+      priority: 40
 layout:
   groups:
     toolbar:
       priority: 35
       direction: row
       gap: 0.5rem
-
   byPageType:
     "404":
       positions:
         beforeBody: []
         left: []
         right: []
-
-    content:
-      positions:
-        afterBody:
-          - Comments
-
+    content: {}
     folder:
       exclude:
         - reader-mode
       positions:
         right: []
-
     tag:
       exclude:
         - reader-mode
       positions:
         right: []
-
     canvas: {}
     bases: {}

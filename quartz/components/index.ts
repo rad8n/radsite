@@ -10,6 +10,4 @@ export { componentRegistry, defineComponent } from "./registry"
 export { External } from "./external"
 export type { ComponentManifest, RegisteredComponent } from "./registry"
 export type { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-export { default as Comments } from "./Comments"
-
 export { Head, Spacer, DesktopOnly, MobileOnly, NotFound, Flex, ConditionalRender }

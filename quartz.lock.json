@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "plugins": {
+    "breadcrumbs": {
+      "source": "github:quartz-community/breadcrumbs",
+      "resolved": "https://github.com/quartz-community/breadcrumbs.git",
+      "commit": "4d283d8704fc7c6afb23e88524eda97316df889d",
+      "installedAt": "2026-08-03T23:14:42.791Z"
+    },
+    "comments": {
+      "source": "./quartz/plugins/comments",
+      "resolved": "/Users/aidanharris/Documents/Github/radsite/quartz/plugins/comments",
+      "commit": "local",
+      "installedAt": "2026-08-03T22:15:05.608Z"
+    },
+    "crawl-links": {
+      "source": "github:quartz-community/crawl-links",
+      "resolved": "https://github.com/quartz-community/crawl-links.git",
+      "commit": "2673605b9d47a84cc1b0a4a119fe6dfd116b7762",
+      "installedAt": "2026-08-03T23:14:42.830Z"
+    },
+    "explorer": {
+      "source": "github:quartz-community/explorer",
+      "resolved": "https://github.com/quartz-community/explorer.git",
+      "commit": "06ea3d8e206f0edaab08556191adc75b2403e832",
+      "installedAt": "2026-08-03T23:14:42.810Z"
+    },
+    "quartz-comment-custom": {
+      "source": "github:rad8n/quartz-comment-custom",
+      "resolved": "https://github.com/rad8n/quartz-comment-custom.git",
+      "commit": "6caab8239eedd1549b3a6f3418f21d5f782355fd",
+      "installedAt": "2026-08-04T00:08:45.213Z"
+    },
+    "quartz-themes": {
+      "source": {
+        "name": "quartz-themes",
+        "repo": "github:saberzero1/quartz-themes",
+        "subdir": "plugin"
+      },
+      "resolved": "https://github.com/saberzero1/quartz-themes.git",
+      "commit": "8713a29459025afa4ca03b2a817fed78b4faafa2",
+      "subdir": "plugin",
+      "installedAt": "2026-08-03T23:14:42.770Z"
+    }
+  }
+}

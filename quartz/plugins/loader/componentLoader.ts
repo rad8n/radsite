@@ -7,6 +7,8 @@ export async function loadComponentsFromPackage(
   pluginName: string,
   manifest: PluginManifest | null,
 ): Promise<void> {
+  console.log("COMPONENT LOADER CALLED:", pluginName)
+  console.log(JSON.stringify(manifest, null, 2))
   if (!manifest?.components) return
 
   try {
@@ -36,6 +38,7 @@ export async function loadComponentsFromPackage(
         pluginName,
         componentManifest as ComponentManifest,
       )
+      console.log("REGISTERED COMPONENT:", `${pluginName}/${exportName}`)
 
       // Also register under just the export name (e.g. "Footer", "NotePropertiesComponent")
       // so buildLayoutForEntries can find it via PascalCase conversion of plugin name
