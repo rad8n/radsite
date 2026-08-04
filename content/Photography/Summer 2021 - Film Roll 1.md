@@ -1,30 +1,31 @@
 <center> This is a collection of some of my first film photos from 2021. I see these photos a lot when scanning and going through old photos. Mostly because I have them scattered throughout all my devices. I find that kind of nice. It allows the memory of that summer to stay fresh in my mind.</center>
 
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
-  <img src="images/photography/WEB_35_REF0001/0001_01.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_010.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_011.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_012.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_013.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_014.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_015.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_016.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_017.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_018.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_019.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_02.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_020.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_021.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_022.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_03.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_04.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_05.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_06.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_07.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_08.jpg" style="width: 100%; height: auto; display: block;">
-  <img src="images/photography/WEB_35_REF0001/0001_09.jpg" style="width: 100%; height: auto; display: block;">
+<div class="photo-grid">
+  <img src="images/photography/WEB_35_REF0001/0001_01.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_010.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_011.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_012.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_013.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_014.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_015.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_016.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_017.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_018.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_019.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_02.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_020.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_021.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_022.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_03.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_04.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_05.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_06.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_07.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_08.jpg">
+  <img src="images/photography/WEB_35_REF0001/0001_09.jpg">
 </div>
+
 <center>~~~</center>
 <center>This was a summer in which I can remember fighting to feel at peace. I was still fairly fresh out of highschool and the open world felt daunting to me. Film photography was brand new to me and a way for me to slow down a bit, and refresh a hobby that had grown pressures in itself. </center>
 <center>~~~</center>
