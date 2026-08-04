@@ -25,6 +25,30 @@
   <img src="images/photography/WEB_35_REF0001/0001_08.jpg">
   <img src="images/photography/WEB_35_REF0001/0001_09.jpg">
 </div>
+<br><br>
+
+˚　　　　✦　　　.　　. 　 ˚　.　　　　　 . ✦　　　 　˚　　　　 . ★⋆. ࿐࿔ 
+　　　.   　　˚　　 　　*　　 　　✦　　　.　　.　　　✦　˚ 　　　　 ˚　.˚　　　　✦　　　.　　. 　 ˚　.　　　　 　　 　　　　        ੈ✧̣̇˳·˖✶   ✦　　
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/vP9QAghbkeI?si=C9-mCBE8K-VUWYS9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+
+˚　　　　✦　　　.　　. 　 ˚　.　　　　　 . ✦　　　 　˚　　　　 . ★⋆. ࿐࿔ 
+　　　.   　　˚　　 　　*　　 　　✦　　　.　　.　　　✦　˚ 　　　　 ˚　.˚　　　　✦　　　.　　. 　 ˚　.　　　　 　　 　　　　        ੈ✧̣̇˳·˖✶   ✦　　
+　　　<center>Wow! That was a lot of photos... take a break for a minute</center>
+　　　<br>
+　　　
+<div class="photo-grid">
+  <img src="images/photography/WEB_35_REF0002/0002_01.jpg">
+  <img src="images/photography/WEB_35_REF0002/0002_010.jpg">
+  <img src="images/photography/WEB_35_REF0002/0002_02.jpg">
+  <img src="images/photography/WEB_35_REF0002/0002_03.jpg">
+  <img src="images/photography/WEB_35_REF0002/0002_04.jpg">
+  <img src="images/photography/WEB_35_REF0002/0002_05.jpg">
+  <img src="images/photography/WEB_35_REF0002/0002_06.jpg">
+  <img src="images/photography/WEB_35_REF0002/0002_07.jpg">
+  <img src="images/photography/WEB_35_REF0002/0002_08.jpg">
+  <img src="images/photography/WEB_35_REF0002/0002_09.jpg">
+</div>
 
 <center>~~~</center>
 <center>This was a summer in which I can remember fighting to feel at peace. I was still fairly fresh out of highschool and the open world felt daunting to me. Film photography was brand new to me and a way for me to slow down a bit, and refresh a hobby that had grown pressures in itself. </center>
@@ -38,7 +62,7 @@
 <center>The photos of the highway were taken on a drive with Alexa :). I remember spending a lot of time with her then.  If she ever reads this hi! I hope you're doing well and I miss you. Thinking of you as you are galavanting at the lake</center>
 <center>~~~</center>
 
-#tags:  #ref35001 #photography #mediumformat #film
+#tags:  #ref350001 #ref350002 #photography #mediumformat #film
 *Refresh the page here if you don't see the comments section!*
 <script src="https://giscus.app/client.js"
         data-repo="rad8n/radsite"
