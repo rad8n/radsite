@@ -6,6 +6,7 @@
 
 
 tags : #music
+*Refresh the page here if you don't see the comments section!*
 <script src="https://giscus.app/client.js"
         data-repo="rad8n/radsite"
         data-repo-id="R_kgDOTqf5yg"

@@ -21,8 +21,7 @@ Favourite Song: Deer Creek</center>
 
 
 --------
-and a little note to myself so i dont forget how to use this
-npx quartz sync
+*Refresh the page here if you don't see the comments section!*
 <script src="https://giscus.app/client.js"
         data-repo="rad8n/radsite"
         data-repo-id="R_kgDOTqf5yg"
