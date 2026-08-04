@@ -1,5 +1,4 @@
 ---
-draft: "true"
 cover: '"images/photography/WEB_35_REF0001/0001_017.jpg"'
 ---
 <center> This is a collection of some of my first film photos from 2021. I see these photos a lot when scanning and going through old photos. Mostly because I have them scattered throughout all my devices. I find that kind of nice. It allows the memory of that summer to stay fresh in my mind.</center>
