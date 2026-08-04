@@ -30,7 +30,15 @@
 ˚　　　　✦　　　.　　. 　 ˚　.　　　　　 . ✦　　　 　˚　　　　 . ★⋆. ࿐࿔ 
 　　　.   　　˚　　 　　*　　 　　✦　　　.　　.　　　✦　˚ 　　　　 ˚　.˚　　　　✦　　　.　　. 　 ˚　.　　　　 　　 　　　　        ੈ✧̣̇˳·˖✶   ✦　　
 
-<div class="album-grid"><center><iframe width="200" height="200" src="https://www.youtube.com/embed/vP9QAghbkeI?si=C9-mCBE8K-VUWYS9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center></div>
+<center><div class="music-player">
+<iframe
+src="https://www.youtube.com/embed/vP9QAghbkeI?si=C9-mCBE8K-VUWYS9"
+title="YouTube music player"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin"
+allowfullscreen>
+</iframe>
+</div></center>
 
 ˚　　　　✦　　　.　　. 　 ˚　.　　　　　 . ✦　　　 　˚　　　　 . ★⋆. ࿐࿔ 
 　　　.   　　˚　　 　　*　　 　　✦　　　.　　.　　　✦　˚ 　　　　 ˚　.˚　　　　✦　　　.　　. 　 ˚　.　　　　 　　 　　　　        ੈ✧̣̇˳·˖✶   ✦　　

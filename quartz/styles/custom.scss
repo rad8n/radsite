@@ -265,3 +265,15 @@ article h1:hover,
     }
   }
 }
+.music-player {
+  width: 200px;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+}
+
+.music-player iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
