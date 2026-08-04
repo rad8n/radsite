@@ -287,55 +287,6 @@ plugins:
     enabled: true
     options: {}
     order: 50
-  - source: github:rad8n/quartz-comment-custom
-    enabled: true
-    options: {}
-    order: 50
-    layout:
-      position: beforeBody
-      priority: 40
-  - source: github:rad8n/quartz-comment-custom
-    enabled: true
-    options: {}
-    order: 50
-    layout:
-      position: beforeBody
-      priority: 40
-  - source: github:rad8n/quartz-comment-custom
-    enabled: true
-    options: {}
-    order: 50
-    layout:
-      position: beforeBody
-      priority: 40
-  - source: github:rad8n/quartz-comment-custom
-    enabled: true
-    options: {}
-    order: 50
-    layout:
-      position: beforeBody
-      priority: 40
-  - source: github:rad8n/quartz-comment-custom
-    enabled: true
-    options: {}
-    order: 50
-    layout:
-      position: beforeBody
-      priority: 40
-  - source: github:rad8n/quartz-comment-custom
-    enabled: true
-    options: {}
-    order: 50
-    layout:
-      position: beforeBody
-      priority: 40
-  - source: github:rad8n/quartz-comment-custom
-    enabled: true
-    options: {}
-    order: 50
-    layout:
-      position: beforeBody
-      priority: 40
 layout:
   groups:
     toolbar:
