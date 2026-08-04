@@ -153,7 +153,7 @@ plugins:
   - source: "@quartz-community/tag-page"
     enabled: true
   - source: "@quartz-community/graph"
-    enabled: false
+    enabled: true
     layout:
       position: right
       priority: 10
