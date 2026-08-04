@@ -233,3 +233,18 @@ article h1:hover,
   }
 }
 
+
+@media (max-width: 768px) {
+  .left.sidebar {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: calc(100% + 2rem) !important;
+    max-width: none !important;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 768px) {
+  .left.sidebar {
+    position: static !important;
+  }
+}
