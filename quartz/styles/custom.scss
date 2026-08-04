@@ -209,3 +209,27 @@ article h1:hover,
     margin-left: calc(50% - 50vw);
   }
 }
+
+
+
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.album-grid iframe {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border: none;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .album-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
