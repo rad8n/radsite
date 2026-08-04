@@ -25,13 +25,17 @@
   <img src="images/photography/WEB_35_REF0001/0001_08.jpg" style="width: 100%; height: auto; display: block;">
   <img src="images/photography/WEB_35_REF0001/0001_09.jpg" style="width: 100%; height: auto; display: block;">
 </div>
-
+<center>~~~</center>
 <center>This was a summer in which I can remember fighting to feel at peace. I was still fairly fresh out of highschool and the open world felt daunting to me. Film photography was brand new to me and a way for me to slow down a bit, and refresh a hobby that had grown pressures in itself. </center>
+<center>~~~</center>
 
+<center>~~~</center>
 <center>The pictures up at the cabin were a lot of fun to take. I would leave for hours at a time and walk around photographing anything that caught my eye. I know most of the photos are mundane but they really capture what I saw in those moments. The crappy quality of them also really brings me back to what it was like to shoot on film for the first time </center>
+<center>~~~</center>
 
+<center>~~~</center>
 <center>The photos of the highway were taken on a drive with Alexa :). I remember spending a lot of time with her then.  If she ever reads this hi! I hope you're doing well and I miss you. Thinking of you as you are galavanting at the lake</center>
-
+<center>~~~</center>
 
 #tags:  #ref35001 #photography #mediumformat #film
 *Refresh the page here if you don't see the comments section!*
