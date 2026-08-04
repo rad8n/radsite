@@ -1,3 +1,6 @@
+---
+title: home
+---
 <center><h1> You have entered a radical website. I hope you've come prepared</h1></center>
 <center>This website is full of journal entries and more. Take some time to explore my projects. I'll be updating them with old and new!</center>
 <center>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</center>
