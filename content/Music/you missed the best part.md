@@ -9,6 +9,7 @@
 This album is part of what inspired me to start writing a few years ago. I felt as if I could see myself and my perspectives in the lyrics of these songs, and I wanted to learn to communicate my thoughts like this.
 <br>
 tags: #music
+<br>
 *Refresh the page here if you don't see the comments section!*
 <script src="https://giscus.app/client.js"
         data-repo="rad8n/radsite"
