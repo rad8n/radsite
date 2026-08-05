@@ -70,7 +70,7 @@ allowfullscreen>
 <center>The photos of the highway were taken on a drive with Alexa :). I remember spending a lot of time with her then.  If she ever reads this hi! I hope you're doing well and I miss you. Thinking of you as you are galavanting at the lake</center>
 <center>~~~</center>
 
-#tags:  #ref350001 #ref350002 #photography #mediumformat #film
+tags:  #ref350001 #ref350002 #photography #mediumformat #film
 *Refresh the page here if you don't see the comments section!*
 <script src="https://giscus.app/client.js"
         data-repo="rad8n/radsite"
