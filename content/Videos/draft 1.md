@@ -1,6 +1,3 @@
----
-draft: "true"
----
 <center> Once and a while I make a small edit. this one was an old one i made with some writing , my own clips, and some fun conversion of images to pixel art palettes.</center>
 
 <center><div class="music-player">
