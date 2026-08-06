@@ -101,7 +101,7 @@ plugins:
         category: Comments
         categoryId: DIC_kwDOTqf5ys4DCeyS
         lang: en
-        themeUrl: "https://rad8n.github.io/radsite/static/giscus"
+        themeUrl: "https://github.com/rad8n/radsite/tree/bbf0b7bb88ede97ff73fdf95c8aee6be5564994c/quartz/static/giscus"
         darkTheme: dark_protanopia
         lightTheme: catppuccin_frappe
         mapping: title
