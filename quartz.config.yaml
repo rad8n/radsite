@@ -91,6 +91,19 @@ plugins:
     options:
       renderEngine: katex
     order: 80
+  - source: github:quartz-community/comments
+    enabled: true
+    options:
+      provider: giscus
+      options:
+        repo: jackyzha0/quartz
+        repoId: MDEwOlJlcG9zaXRvcnkzODcyMTMyMDg
+        category: Announcements
+        categoryId: DIC_kwDOFxRnmM4B-Xg6
+        lang: en
+    layout:
+      position: afterBody
+      priority: 10
   - source: "@quartz-community/citations"
     enabled: false
     order: 85
