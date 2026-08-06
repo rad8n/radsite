@@ -1,3 +1,7 @@
+---
+giscus: california-roadtrip
+---
+
 <center> These are my film photos from our roadtrip to California. It was truly like nothing I had ever seen. A trip that revived my wanderlust </center>
 
 <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/track/3508124491" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
@@ -43,11 +47,12 @@ tags : #photography #film #mediumformat #archive #ref120--02 #ref120--03
         data-repo-id="R_kgDOTqf5yg"
         data-category="Comments"
         data-category-id="DIC_kwDOTqf5ys4DCeyS"
-        data-mapping="pathname"
+        data-mapping="specific"
+        data-term="giscus"
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
-        data-input-position="bottom"
+        data-input-position="top"
         data-theme="transparent_dark"
         data-lang="en"
         crossorigin="anonymous"

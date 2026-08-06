@@ -1,3 +1,7 @@
+---
+giscus: summer-2021-film-3
+---
+
 <center> Gosh even more. This was quite the busy time for photography. Watch out yall I was coming for that crown with a blurry photo of a tree and grass</center>
 
 <center><div class="music-player">
@@ -49,11 +53,12 @@ tags: #ref350004 #photography #35mm #film
         data-repo-id="R_kgDOTqf5yg"
         data-category="Comments"
         data-category-id="DIC_kwDOTqf5ys4DCeyS"
-        data-mapping="pathname"
+        data-mapping="specific"
+        data-term="giscus"
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
-        data-input-position="bottom"
+        data-input-position="top"
         data-theme="transparent_dark"
         data-lang="en"
         crossorigin="anonymous"

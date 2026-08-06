@@ -1,3 +1,7 @@
+---
+giscus: summer-2021-film-6
+---
+
 <center> Now we are at the end of summer/ beginning of fall. I had begun school at UBC and was commuting from Tsawwassen. Most of these photos are from a day of walking around Ladner, mixed in with one or two from oakridge near the skytrain station and UBC campus</center>
 
 <center><div class="music-player">
@@ -60,11 +64,12 @@ tags: #ref350005 #photography #35mm #film
         data-repo-id="R_kgDOTqf5yg"
         data-category="Comments"
         data-category-id="DIC_kwDOTqf5ys4DCeyS"
-        data-mapping="pathname"
+        data-mapping="specific"
+        data-term="giscus"
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
-        data-input-position="bottom"
+        data-input-position="top"
         data-theme="transparent_dark"
         data-lang="en"
         crossorigin="anonymous"
