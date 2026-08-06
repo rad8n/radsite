@@ -1,5 +1,5 @@
 ---
-giscus: in-the-forest
+title: in the forest
 ---
 
 <center> Once and a while I make a small edit. this one was an old one i made with some writing , my own clips, and some fun conversion of images to pixel art palettes.</center>
@@ -18,19 +18,4 @@ allowfullscreen>
 
 #tags: 
 *Refresh the page here if you don't see the comments section!*
-<script src="https://giscus.app/client.js"
-        data-repo="rad8n/radsite"
-        data-repo-id="R_kgDOTqf5yg"
-        data-category="Comments"
-        data-category-id="DIC_kwDOTqf5ys4DCeyS"
-        data-mapping="specific"
-        data-term="giscus"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="transparent_dark"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>
+

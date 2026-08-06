@@ -1,5 +1,5 @@
 ---
-giscus: fleetwood-mac
+title: Fleetwood Mac
 ---
 
 <center> I have been absolutely devouring Fleetwood Mac the past few months. I absolutely love Stevie Nicks. Silver Springs and You make loving fun are my jams</center>
@@ -9,19 +9,3 @@ giscus: fleetwood-mac
 
 tags: #music #old 
 *Refresh the page here if you don't see the comments section!*
-<script src="https://giscus.app/client.js"
-        data-repo="rad8n/radsite"
-        data-repo-id="R_kgDOTqf5yg"
-        data-category="Comments"
-        data-category-id="DIC_kwDOTqf5ys4DCeyS"
-        data-mapping="specific"
-        data-term="giscus"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="transparent_dark"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>

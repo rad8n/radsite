@@ -1,6 +1,5 @@
 ---
 title: home
-giscus: index
 ---
 <center><h1> You have entered a radical website. I hope you've come prepared</h1></center>
 

@@ -1,5 +1,5 @@
 ---
-giscus: summer-2021-film-1
+title: Summer 2021 - Film
 ---
 
 <center> This is a collection of some of my first film photos from 2021. I see these photos a lot when scanning and going through old photos. Mostly because I have them scattered throughout all my devices. I find that kind of nice. It allows the memory of that summer to stay fresh in my mind.</center>
@@ -76,19 +76,4 @@ allowfullscreen>
 
 tags:  #ref350001 #ref350002 #photography #35mm #film
 *Refresh the page here if you don't see the comments section!*
-<script src="https://giscus.app/client.js"
-        data-repo="rad8n/radsite"
-        data-repo-id="R_kgDOTqf5yg"
-        data-category="Comments"
-        data-category-id="DIC_kwDOTqf5ys4DCeyS"
-        data-mapping="specific"
-        data-term="giscus"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="transparent_dark"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>
+

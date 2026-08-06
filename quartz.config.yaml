@@ -21,15 +21,15 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: rgba(26, 26, 56, 0.88)
-        lightgray: rgba(57, 54, 57, 0.88)
+        light: "#e6d1a1"
+        lightgray: "#445162"
         gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        darkgray: "#886243"
+        dark: "#944431"
+        secondary: "#594a45"
+        tertiary: "#594a45"
+        highlight: "#445162"
+        textHighlight: "#f1e2be"
       darkMode:
         light: rgba(26, 26, 56, 0.88)
         lightgray: "#rgba(57, 54, 57, 0.88)"
@@ -101,6 +101,12 @@ plugins:
         category: Comments
         categoryId: DIC_kwDOTqf5ys4DCeyS
         lang: en
+        themeUrl: "https://rad8n.github.io/radsite/static/giscus"
+        darkTheme: dark_protanopia
+        lightTheme: catppuccin_frappe
+        mapping: title
+        strict: true
+        term: giscus
     layout:
       position: afterBody
       priority: 10
