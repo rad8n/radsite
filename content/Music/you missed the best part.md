@@ -1,4 +1,4 @@
-
+``
 
 <center>I've spent a lot of time with this album. When I listen to it I have such a clear picture of what it means to me, but when trying to write it down I'm finding a lack of words. The lyrics bring me into these memories, and makes me feel like I've lived with them myself for years. You feel this almost calm melancholy towards life. Billy is able to see small things and both sadness and joy within them, and also create these exceptional descriptions of his world.</center>
 <br>

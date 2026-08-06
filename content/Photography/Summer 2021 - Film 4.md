@@ -51,7 +51,7 @@ allowfullscreen>
 
 
 
-tags: #ref350005 #photography #mediumformat #film
+tags: #ref350005 #photography #35mm #film
 *Refresh the page here if you don't see the comments section!*
 <script src="https://giscus.app/client.js"
         data-repo="rad8n/radsite"
