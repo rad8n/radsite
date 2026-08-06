@@ -96,10 +96,10 @@ plugins:
     options:
       provider: giscus
       options:
-        repo: jackyzha0/quartz
-        repoId: MDEwOlJlcG9zaXRvcnkzODcyMTMyMDg
-        category: Announcements
-        categoryId: DIC_kwDOFxRnmM4B-Xg6
+        repo: rad8n/radsite
+        repoId: R_kgDOTqf5yg
+        category: Comments
+        categoryId: DIC_kwDOTqf5ys4DCeyS
         lang: en
     layout:
       position: afterBody
