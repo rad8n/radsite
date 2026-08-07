@@ -1,6 +1,6 @@
 ---
 draft: "true"
-giscus:
+title: default
 ---
 <center> insert intro here</center>
 

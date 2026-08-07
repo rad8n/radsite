@@ -7,7 +7,6 @@ title: home
 <center>This website is full of journal entries and more. Take some time to explore my projects. I'll be updating them with old and new!</center>
 <center>•☽────✧˖°˖☆˖°˖✧────☾•</center>
 
-
 <div class="album-grid">
 <div>
 <h4 style="text-align:center;">Some of my favourite albums</h4>

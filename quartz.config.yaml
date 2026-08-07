@@ -28,7 +28,7 @@ configuration:
         dark: "#944431"
         secondary: "#594a45"
         tertiary: "#594a45"
-        highlight: "#445162"
+        highlight: "#c0977a"
         textHighlight: "#f1e2be"
       darkMode:
         light: rgba(26, 26, 56, 0.88)
@@ -101,12 +101,14 @@ plugins:
         category: Comments
         categoryId: DIC_kwDOTqf5ys4DCeyS
         lang: en
-        themeUrl: "https://github.com/rad8n/radsite/tree/bbf0b7bb88ede97ff73fdf95c8aee6be5564994c/quartz/static/giscus"
-        darkTheme: dark_protanopia
-        lightTheme: catppuccin_frappe
+        themeUrl: "https://giscus.app/themes"
+        darkTheme: transparent_dark
+        lightTheme: fro
         mapping: title
         strict: true
         term: giscus
+        reactionsEnabled: true
+        inputPosition: top
     layout:
       position: afterBody
       priority: 10
