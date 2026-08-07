@@ -102,8 +102,8 @@ plugins:
         categoryId: DIC_kwDOTqf5ys4DCeyS
         lang: en
         themeUrl: "https://giscus.app/themes"
-        darkTheme: transparent_dark
-        lightTheme: fro
+        darkTheme: cobalt
+        lightTheme: gruvbox_light
         mapping: title
         strict: true
         term: giscus
